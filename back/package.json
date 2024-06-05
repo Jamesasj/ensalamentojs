@@ -1,13 +1,13 @@
 {
-  "name": "ensalemente",
+  "name": "Ensalamento",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema para controle de horarios de professores",
   "main": "index.js",
   "type": "module",
+  "author": "James Alves",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.24.6",

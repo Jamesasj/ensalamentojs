@@ -1,7 +1,7 @@
 import { User } from "./user.model.js";
 
-function create(firtsNme, lastName, email) {
-  return new User(firtsNme, lastName, email);
+function validadeUser(user) {
+  return user;
 }
 
-export { create };
+export { validadeUser };

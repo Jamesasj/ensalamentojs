@@ -1,0 +1,7 @@
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_PASSWORD: "samaster"
+    ports:
+      - "5432:5432"

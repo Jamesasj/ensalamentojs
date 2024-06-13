@@ -1,5 +1,5 @@
-import UserCase from "./user.adapter.js";
+import userAdapterFactory from "./user.adapter.js";
 
 export const adapter = (dao) => {
-  return { user: UserCase };
+  return { user: userAdapterFactory(dao) };
 };

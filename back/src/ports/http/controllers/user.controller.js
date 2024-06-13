@@ -8,7 +8,8 @@ export const UserController = (adapter) => {
 
         create: (req, res, next) => {
             const u = req.body;
-            u.id = 1;
+            adapter.user.create(u);
+            //u.id = 1;
             return u;
         },
 

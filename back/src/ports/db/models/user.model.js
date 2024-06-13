@@ -12,17 +12,17 @@ const User = db.define('users', {
         type: Sequelize.STRING,
         allowNull: false
     },
-    cpf: {
+    lastname: {
         type: Sequelize.STRING,
         allowNull: false
     },
     phone: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: true
     },
     email: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: true
     }
 }, { underscored: true });
 

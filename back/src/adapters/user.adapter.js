@@ -1,12 +1,13 @@
 import { validadeUser } from "../core/users/user.usecase.js";
 
-const userAdapterFactory = (dao) => {
+const userAdapterFactory = (dao, logger) => {
   return {
-    create: createUser(dao)
+    create: createUser(dao, logger ),
   }
 }
 
-const createUser = (dao) => async (param) => {
+const createUser = (dao, logger) => async (param) => {
+  logger.info('a new user as created')
   dao.user.insert(validadeUser(param));
 }
 

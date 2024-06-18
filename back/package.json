@@ -7,8 +7,8 @@
   "scripts": {
     "test": "jest",
     "swagger-autogen": "node swagger.js",
-    "sync_db":"node src\\ports\\db\\sync.db.js",
-    "httpp":"node src\\ports\\http\\bin\\www.js"
+    "sync_db": "node src\\ports\\db\\sync.db.js",
+    "httpp": "node src\\ports\\http\\bin\\www.js"
   },
   "license": "ISC",
   "devDependencies": {
